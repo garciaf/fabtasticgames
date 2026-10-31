@@ -19,7 +19,6 @@ python3 -m http.server 8000
 | `impressum.html`, `datenschutz.html` | Legal pages (placeholders — fill in before going live) |
 | `404.html` | Not-found page (GitHub Pages uses it automatically) |
 | `assets/css/style.css` | All styles. Change `--accent` in `:root` to re-colour the site |
-| `assets/js/main.js` | Click-to-load YouTube trailer (nothing loads from YouTube until a visitor clicks) |
 | `assets/fonts/` | Self-hosted Bungee + Rubik (SIL OFL), no Google Fonts requests |
 | `assets/img/` | Favicon; put screenshots, key art and the og-image here |
 | `CNAME` | Custom domain for GitHub Pages |

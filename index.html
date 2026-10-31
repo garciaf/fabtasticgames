@@ -50,17 +50,13 @@
     <div>
       <div class="tv">
         <div class="screen">
-          <!-- Trailer: loads from YouTube only after a click (see assets/js/main.js) -->
-          <a class="yt-facade media-16x9" href="https://youtu.be/ILd1siR-Js4" data-yt="ILd1siR-Js4" data-title="Bargain Poker trailer">
-            <picture>
-              <source srcset="assets/img/games/bargain-poker-3d-title.webp" type="image/webp">
-              <img src="assets/img/games/bargain-poker-3d-title.jpg" width="1280" height="720" alt="">
-            </picture>
-            <span class="yt-play">
-              <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
-              <span>Watch the <span class="hide-sm">Bargain Poker </span>trailer</span>
-            </span>
-          </a>
+          <!-- Trailer: the YouTube player, embedded directly -->
+          <div class="media-16x9">
+            <iframe class="yt-frame" src="https://www.youtube.com/embed/ILd1siR-Js4?rel=0"
+              title="Bargain Poker trailer" loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
       <div class="tv-stand" aria-hidden="true"></div>
@@ -185,6 +181,5 @@
     </nav>
   </div>
 </footer>
-<script src="assets/js/main.js" defer></script>
 </body>
 </html>
